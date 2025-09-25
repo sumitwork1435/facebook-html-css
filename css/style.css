@@ -1,684 +1,689 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
 }
 
 .profile-set {
-    width: 1000px;
-    margin: 0px auto 0px auto;
+  width: 1000px;
+  margin: 0px auto 0px auto;
 }
 
 .container {
-    margin: 0px auto 0px auto;
-    width: 930px;
+  margin: 0px auto 0px auto;
+  width: 930px;
 }
 
 .background-img {
-    width: 100%;
-    max-height: 130px;
-    border-radius: 7px;
-    background-image: url("../image/background-img.png");
+  width: 100%;
+  max-height: 130px;
+  border-radius: 7px;
+  background-image: url("../image/background-img.png");
 }
 
 
 .profile-pic img {
-    width: 168px;
-    height: 168px;
-    border-radius: 100px;
-    margin-top: 50px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: white;
-    box-shadow: none;
-    cursor: pointer;
+  width: 168px;
+  height: 168px;
+  border-radius: 100px;
+  margin-top: 50px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: none;
+  cursor: pointer;
 }
 
 .profile-pic {
-    display: grid;
+  display: grid;
 
 }
 
 .edit-cover {
-    color: white;
-    margin: -150px 0px auto auto;
+  color: white;
+  margin: -150px 0px auto auto;
 }
 
 .edit-cover button {
-    padding: 0px 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    border-style: none;
-    height: 36px;
+  padding: 0px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  border-style: none;
+  height: 36px;
+  border-style: none;
 }
 
 .profile-sec {
-    display: grid;
+  display: grid;
 }
 
 .username h1 {
-    margin: -75px 0px auto 175px;
-    padding: 0px 20px;
-    font-size: 32px;
-    font-weight: 700;
-    width: 20%;
+  margin: -75px 0px auto 175px;
+  padding: 0px 20px;
+  font-size: 32px;
+  font-weight: 700;
+  width: 20%;
 }
 
 .username p {
-    margin: 0px 0px auto 175px;
-    padding: 10px 20px;
-    font-weight: bold;
-    color: #69656c;
-    cursor: pointer;
+  margin: 0px 0px auto 175px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #69656c;
+  cursor: pointer;
 
 
 }
 
 .username p :hover {
-    color: red;
+  color: red;
 }
 
 .btn-set {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-btn button {
-    font-size: 15px;
-    padding: 0px 12px;
-    border-radius: 8px;
-    margin-left: 6px;
-    border-style: none;
-    font-weight: 700;
-    background-color: #e2e5e9;
-    cursor: pointer;
-    margin-top: -25px;
-    height: 36px;
+  font-size: 15px;
+  padding: 0px 12px;
+  border-radius: 8px;
+  margin-left: 6px;
+  border-style: none;
+  font-weight: 700;
+  background-color: #e2e5e9;
+  cursor: pointer;
+  margin-top: -25px;
+  height: 36px;
 }
 
 .profile-btn .blue-btn {
-    background-color: #0866ff;
-    color: white;
+  background-color: #0866ff;
+  color: white;
 }
 
 .profile-btn button i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .divider-line {
-    width: 930px;
-    height: 0.5px;
-    background-color: #e2e5e9;
-    margin: 20px auto 0px auto;
+  width: 930px;
+  height: 0.5px;
+  background-color: #e2e5e9;
+  margin: 20px auto 0px auto;
 }
 
 .profile-opt {
-    display: flex;
+  display: flex;
 }
 
 .flex-opt a {
-    text-decoration: none;
-    padding: 20px 16px;
-    vertical-align: middle;
-    color: #69656c;
-    font-size: 16px;
-    font-weight: 600;
+  text-decoration: none;
+  padding: 20px 16px;
+  vertical-align: middle;
+  color: #69656c;
+  font-size: 16px;
+  font-weight: 600;
 
 
 }
 
 .option {
-    margin-top: 122px;
+  margin-top: 122px;
 }
 
 .t-dot {
-    margin: 0px 0px 0px auto;
+  margin: 0px 0px 0px auto;
 }
 
 .t-dot button {
-    font-size: 15px;
-    padding: 10px 12px;
-    border-radius: 8px;
-    border-style: none;
-    color: #69656c;
-    margin-top: -8px;
+  font-size: 15px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border-style: none;
+  color: #69656c;
+  margin-top: -8px;
 }
 
 .divider-linet {
-    width: 930px;
-    height: 0.5px;
-    background-color: #e2e5e9;
-    margin: 17px auto 0px auto;
+  width: 930px;
+  height: 0.5px;
+  background-color: #e2e5e9;
+  margin: 17px auto 0px auto;
 }
 
 .qew {
-    display: flex;
+  display: flex;
 }
 
 .content-view {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin: 16px 0px 0px;
-    width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 16px 0px 0px;
+  width: 100%;
 
 }
 
 .intro-sec span {
-    font-size: 20px;
-    font-weight: bolder;
-    width: 100%;
-    padding: 6px;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 100%;
+  padding: 6px;
 }
 
 .intro-sec {
-    padding: 20px 16px 20px;
+  padding: 20px 16px 20px;
 
 }
 
 .add-bio p {
 
-    text-align: center;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 11px;
-    vertical-align: middle;
-    margin: 0px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 11px;
+  vertical-align: middle;
+  margin: 0px;
 
 }
 
 .add-bio {
-    background-color: #e2e5e9;
-    border-radius: 8px;
-    cursor: pointer;
+  background-color: #e2e5e9;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .bio {
-    padding: 18px 6px 6px;
+  padding: 18px 6px 6px;
 }
 
 .details {
-    padding: 12px 6px 6px;
+  padding: 12px 6px 6px;
 }
 
 .edit-details p {
-    margin: 0px;
-    padding: 9px 0px;
-    font-size: 15px;
+  margin: 0px;
+  padding: 9px 0px;
+  font-size: 15px;
 
 }
 
 .edit-details p i {
-    font-size: 20px;
-    padding-right: 12px;
-    color: #69656c;
+  font-size: 20px;
+  padding-right: 12px;
+  color: #69656c;
 
 }
 
 .box-dtl p {
-    text-align: center;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 11px;
-    vertical-align: middle;
-    margin: 0px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 11px;
+  vertical-align: middle;
+  margin: 0px;
 
 }
 
 .box-dtl {
-    background-color: #e2e5e9;
-    border-radius: 8px;
-    margin: 8px 0px 9px 0px;
-    cursor: pointer;
+  background-color: #e2e5e9;
+  border-radius: 8px;
+  margin: 8px 0px 9px 0px;
+  cursor: pointer;
 
 }
 
 .feature {
-    padding: 0px 6px;
+  padding: 0px 6px;
 }
 
 .grid-clm {
-    display: grid;
-    width: 41%;
+  width: 41%;
 }
 
 .edit-details p strong {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .my-photos {
-    padding: 0px 8px 4px;
-    display: flex;
-    justify-content: space-between;
-    height: 40px;
+  padding: 0px 8px 4px;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
 }
 
 .my-photos .ph {
-    font-size: 20px;
-    font-weight: bolder;
-    margin: 0px;
-    height: 27px;
-    padding: 0px 0px 2px;
-    cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px;
+  height: 27px;
+  padding: 0px 0px 2px;
+  cursor: pointer;
 }
 
 .my-photos .alp {
-    font-size: 17px;
-    color: #0064d1;
-    height: 21px;
-    margin: 0px;
-    cursor: pointer;
+  font-size: 17px;
+  color: #0064d1;
+  height: 21px;
+  margin: 0px;
+  cursor: pointer;
 }
 
 .threepic img {
-    width: 110px;
-    height: 110px;
-    object-fit: cover;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  vertical-align: bottom;
 
 }
 
 .ninepic {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border-radius: 20px;
-    overflow: hidden;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 20px;
+  overflow: hidden;
+  
 }
 
 .threepic {
-    width: 110px;
-    cursor: pointer;
+  width: 110px;
+  cursor: pointer;
 }
 
 .div p {
-    margin: 0px;
-    padding: 1px 6px;
-    font-size: 17px;
-    color: #69656c;
-    height: 21px;
-    margin-top: 2px;
+  margin: 0px;
+  padding: 1px 6px;
+  font-size: 17px;
+  color: #69656c;
+  height: 21px;
+  margin-top: 2px;
 }
 
 .my-photos1 {
-    padding: 0px 8px 4px;
-    display: flex;
-    justify-content: space-between;
-    height: 26px;
+  padding: 0px 8px 4px;
+  display: flex;
+  justify-content: space-between;
+  height: 26px;
 }
 
 .my-photos1 .ph1 {
-    font-size: 20px;
-    font-weight: bolder;
-    margin: 0px;
-    padding: 0px 0px 2px;
-    cursor: pointer;
-    height: 26px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px 0px 2px;
+  cursor: pointer;
+  height: 26px;
 }
 
 .my-photos1 .alp1 {
-    font-size: 17px;
-    color: #0064d1;
-    height: 21px;
-    margin: 0px;
-    cursor: pointer;
+  font-size: 17px;
+  color: #0064d1;
+  height: 21px;
+  margin: 0px;
+  cursor: pointer;
 }
 
 .threefriends img {
-    width: 105px;
-    height: 105px;
-    border-radius: 8px;
+  width: 105px;
+  height: 105px;
+  border-radius: 8px;
 }
 
 .ninefriends {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 16px 0px 0px 6px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 16px 0px 0px 6px;
 }
 
 .friendsname p {
-    margin: 3px 0px 0px;
-    font-size: 13px;
-    height: 30px;
+  margin: 3px 0px 0px;
+  font-size: 13px;
+  height: 30px;
 }
 
 .threefriends {
-    margin-bottom: 12px;
-    cursor: pointer;
+  margin-bottom: 12px;
+  cursor: pointer;
 }
 
 .threefriends1 img {
-    width: 105px;
-    height: 105px;
-    border-radius: 8px;
+  width: 105px;
+  height: 105px;
+  border-radius: 8px;
 }
 
 .facebooklinks p a {
-    text-decoration: none;
-    color: #69656c;
-    font-size: 13px;
-    font-weight: 700;
+  text-decoration: none;
+  color: #69656c;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .facebooklinks p span {
-    font-size: 13px;
-    color: #69656c;
+  font-size: 13px;
+  color: #69656c;
 }
 
 .friendsname {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .threefriends1 {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .psptimg img {
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  cursor: pointer;
 
 }
 
 .row-ma {
-    margin: 16px 0px 0px 16px;
-    width: 59%;
+  margin: 16px 0px 0px 16px;
+  width: 59%;
 
 }
 
 .row {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 510px;
-    padding: 12px 16px 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 510px;
+  padding: 12px 16px 10px;
 }
 
 .psptimg p {
-    margin: -45px 0px 0px 46px;
-    font-size: 17px;
-    background-color: #e2e5e9;
-    padding: 11px 12px;
-    border-radius: 20px;
-    color: #69656c;
-    cursor: pointer;
+  margin: -45px 0px 0px 46px;
+  font-size: 17px;
+  background-color: #e2e5e9;
+  padding: 11px 12px;
+  border-radius: 20px;
+  color: #69656c;
+  cursor: pointer;
 
 }
 
 .divider-lines {
-    height: 0.5px;
-    background-color: #e2e5e9;
-    margin-top: 12px;
+  height: 0.5px;
+  background-color: #e2e5e9;
+  margin-top: 12px;
 
 }
 
 .live-btn {
-    margin-top: 8px;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .live-btn button {
-    padding: 8px;
-    border-style: none;
-    background-color: white;
-    cursor: pointer;
+  padding: 8px;
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+
 }
 
 .live-btn button i {
-    font-size: 24px;
-    margin-right: 6px;
+  font-size: 24px;
+  margin-right: 6px;
 }
 
-.live-btn button span {
-    color: #65686c;
-    font-size: 15px;
-    height: 24px;
-    font-weight: 700;
-    margin: auto 0px auto 0px;
+.live-btn button p {
+  color: #65686c;
+  font-size: 15px;
+  height: 24px;
+  font-weight: 700;
+  margin: 4.5px 0px;
+  
+  
 
 }
 
 .live-btn .redbtn {
-    color: red;
+  color: red;
 }
 
 .live-btn .greenbtn {
-    color: rgb(59, 172, 59);
+  color: rgb(59, 172, 59);
 }
 
 .live-btn .bluebtn {
-    color: #0064d1;
+  color: #0064d1;
 }
 
 .clm {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 510px;
-    padding: 12px 16px 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 510px;
+  padding: 12px 16px 10px;
 }
 
 .row-na {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .posts-sec {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .posts span {
-    font-size: 20px;
-    font-weight: bolder;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .postsflex button {
-    font-size: 15px;
-    background-color: #e2e5e9;
-    border-radius: 8px;
-    border-style: none;
-    height: 40px;
-    font-weight: bold;
-    cursor: pointer;
+  font-size: 15px;
+  background-color: #e2e5e9;
+  border-radius: 8px;
+  border-style: none;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .postsflex button i {
-    font-size: 16px;
-    margin-right: 5px;
-    font-weight: bold;
+  font-size: 16px;
+  margin-right: 5px;
+  font-weight: bold;
 }
 
 .posts {
-    height: 40px;
-    padding-top: 10px;
-    cursor: pointer;
+  height: 40px;
+  padding-top: 10px;
+  cursor: pointer;
 }
 
 .postsflex .onet {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .divider-linep {
-    height: 0.5px;
-    background-color: #e2e5e9;
+  height: 0.5px;
+  background-color: #e2e5e9;
 }
 
 .flexview {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .flexview p {
-    font-size: 15px;
-    margin: 0px;
-    padding: 12px 12px 0px;
-    color: #65686c;
-    font-weight: 600;
-    cursor: pointer;
+  font-size: 15px;
+  margin: 0px;
+  padding: 12px 12px 0px;
+  color: #65686c;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .flexview p i {
-    font-size: 16px;
-    margin-right: 5px;
+  font-size: 16px;
+  margin-right: 5px;
 
 }
 
 .postsimg img {
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  cursor: pointer;
 
 }
 
 .postsimg {
-    width: 48px;
+  width: 48px;
 }
 
 .myposts {
-    margin-top: 16px;
+  margin-top: 16px;
 
 }
 
 .posts-set {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 542px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 542px;
 }
 
 .postsclm {
-    padding: 12px;
+  padding: 12px;
 }
 
 .clmpost {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .imgflexing {
-    display: flex;
+  display: flex;
 
 }
 
 .postoverview p {
-    margin: 0px;
-    font-size: 15px;
-    padding: 2.5px 0px;
-    color: #65686c;
+  margin: 0px;
+  font-size: 15px;
+  padding: 2.5px 0px;
+  color: #65686c;
 
 }
 
 .postoverview p strong {
-    color: black;
-    cursor: pointer;
+  color: black;
+  cursor: pointer;
 }
 
 .div23 button {
-    border-style: none;
-    background-color: white;
-    padding: 12px;
-    font-size: 16px;
-    cursor: pointer;
+  border-style: none;
+  background-color: white;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .divimg img {
-    width: 542px;
+  width: 542px;
 }
 
 .like {
-    padding: 6px 0px;
-    margin: 0px 12px;
+  padding: 6px 0px;
+  margin: 0px 12px;
 }
 
 .like p {
-    margin: 0px;
-    color: #65686c;
-    cursor: pointer;
+  margin: 0px;
+  color: #65686c;
+  cursor: pointer;
 }
 
 .like p i {
-    color: white;
+  color: white;
 
-    font-size: 10px;
-    padding: 1px 2px 2px 2px;
+  font-size: 10px;
+  padding: 1px 2px 2px 2px;
 
 }
 
 .like p span {
-    background-color: #0064d1;
-    border-radius: 100px;
-    margin-right: 6px;
-    height: 18px;
+  background-color: #0064d1;
+  border-radius: 100px;
+  margin-right: 6px;
+  height: 18px;
 }
 
 .divider-lineq {
-    height: 0.5px;
-    background-color: #e2e5e9;
-    margin: 4px 12px 0px;
+  height: 0.5px;
+  background-color: #e2e5e9;
+  margin: 4px 12px 0px;
 }
 
 .likebtn {
-    display: flex;
-    justify-content: space-around;
-    padding: 0px 12px;
-    cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 12px;
+  cursor: pointer;
 }
 
 .likebtn p {
-    margin: 10px 0px;
-    font-size: 15px;
-    color: #65686c;
+  margin: 10px 0px;
+  font-size: 15px;
+  color: #65686c;
 
 }
 
 .likebtn p i {
-    font-size: 20px;
-    margin-right: 8px;
+  font-size: 20px;
+  margin-right: 8px;
 }
 
 .cmntpic img {
-    width: 32px;
-    height: 32px;
-    border-radius: 100px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
 
 }
 
 .cmntpic {
-    margin-bottom: 8px;
-    cursor: pointer;
+  margin-bottom: 8px;
+  cursor: pointer;
 }
 
 .writecmnt {
-    display: flex;
-    margin: 8px 12px;
-    cursor: pointer;
+  display: flex;
+  margin: 8px 12px;
+  cursor: pointer;
 }
 
 .writec {
-    display: flex;
-    background-color: #e2e5e9;
-    border-radius: 20px;
-    margin-left: 8px;
-    height: 32px;
+  display: flex;
+  background-color: #e2e5e9;
+  border-radius: 20px;
+  margin-left: 8px;
+  height: 32px;
 }
 
 .emogicmnt {
-    display: flex;
+  display: flex;
 }
 
 .writec p {
-    margin: 7.3px;
-    color: #65686c;
+  margin: 7.3px;
+  color: #65686c;
 
 }
 
 .cmnt {
-    width: 371px;
+  width: 371px;
 }
 
 .emogicmnt p {
-    margin: 8px 3px;
+  margin: 8px 3px;
 }
 
 .emogicmnt p i {
-    font-size: 15px;
+  font-size: 15px;
 }
