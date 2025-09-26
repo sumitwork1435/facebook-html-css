@@ -13,65 +13,47 @@
 
 <body>
   <!-- ----- profile photo -->
-  <header class="profile-set">
+<header>
     <div class="profile">
-      <div class="background-img">
-        <div class="container">
-          <div class="profile-pic">
-            <img src="image/profile-pic.jpg" alt="">
-            <div class="edit-cover">
-              <button><i class="fa-solid fa-camera"></i> Edit cover photo</button>
-            </div>
-            <div class="username">
-              <h1>Itz SúMít</h1>
-              <div class="btn-set">
-                <p>274 friends</p>
-                <div class="profile-btn">
-                  <button class="blue-btn"><i class="fa-solid fa-plus"></i> Add to story</button>
-                  <button><i class="fa-solid fa-pen"></i>Edit profile</button>
-                  <button><i class="fa-solid fa-angle-down"></i></button>
-                </div>
-              </div>
-            </div>
-            <div class="divider-line"></div>
-          </div>
+      <div class="background">
+        <div class="edit-cover"><button><i class="fa-solid fa-camera"></i> Edit cover photo</button></div>
+        <div class="profilepic">
+          <img src="image/profile-pic.jpg" alt="">
         </div>
       </div>
+      <div class="container">
+        <div class="username">
+          <div class="btn-set">
+            <h1>Itz SúMít</h1>
+            <li>274 friends
+            <li>
+          </div>
+          <div class="profile-btn">
+            <button class="blue-btn"><i class="fa-solid fa-plus"></i> Add to story</button>
+            <button><i class="fa-solid fa-pen"></i>Edit profile</button>
+            <button><i class="fa-solid fa-angle-down"></i></button>
+          </div>
+        </div>
+        <div class="divider-line"></div>
+      </div>
     </div>
-    </div>
-
-  </header></br>
-  <section class="option">
     <div class="container">
-      <div class="profile-opt">
-        <div class="flex-opt">
-          <a href="#">Post</a>
-        </div>
-        <div class="flex-opt">
-          <a href="#">About</a>
-        </div>
-        <div class="flex-opt">
-          <a href="#">Friends</a>
-        </div>
-        <div class="flex-opt">
-          <a href="#">Photos</a>
-        </div>
-        <div class="flex-opt">
-          <a href="#">Videos</a>
-        </div>
-        <div class="flex-opt">
-          <a href="#">Check-ins</a>
-        </div>
-        <div class="flex-opt">
-          <a href="#">More<i class="fa-solid fa-angle-down"></i> </a>
+      <div class="listsec">
+        <div class="listitem">
+          <li>Posts</li>
+          <li>About</li>
+          <li>Friends</li>
+          <li>Photos</li>
+          <li>Videos</li>
+          <li>Check in</li>
+          <li>More<i class="fa-solid fa-angle-down"></i></li>
         </div>
         <div class="t-dot">
           <button><i class="fa-solid fa-ellipsis"></i></button>
         </div>
       </div>
-      <div class="divider-linet"></div>
     </div>
-  </section>
+  </header>
   <!-- ---- main content -->
   <main class="main-content">
     <div class="container">
@@ -225,11 +207,18 @@
                 <div class="divider-lines"></div>
               </div>
               <div class="live-btn">
-                <button class="redbtn"><i class="fa-solid fa-video"></i><p>Live video</p></button></br>
-                <button class="greenbtn"><i class="fa-solid fa-image"></i><p>Photo/video</p>
+                <button class="redbtn"><i class="fa-solid fa-video"></i>
+                  <div>Live video</div>
                 </button></br>
-                <button class="bluebtn"><i class="fa-solid fa-flag"></i><p>Life
-                    event</p></button></br>
+                <button class="greenbtn"><i class="fa-solid fa-image"></i>
+                  <div>Photo/video</div>
+                  </p>
+                </button></br>
+                <button class="bluebtn"><i class="fa-solid fa-flag"></i>
+                  <div>Life
+                    event</div>
+                  </p>
+                </button></br>
               </div>
             </div>
           </div>
@@ -238,18 +227,18 @@
               <div class="clm-set">
                 <div class="posts-sec">
                   <div class="posts">
-                    <span>Posts</span>
+                    Posts
                   </div>
                   <div class="postsflex">
                     <button class="onet"><i class="fa-solid fa-sliders"></i>Filters</button>
                     <button><i class="fa-solid fa-gear"></i>Manage posts</button>
                   </div>
                 </div>
-                <div class="divider-linep"></div>
               </div>
+              <div class="divider-linep"></div>
               <div class="flexview">
-                <p><i class="fa-solid fa-bars"></i>Lists view</p>
-                <p><i class="fa-solid fa-grip"></i>Grid view</p>
+                <div><i class="fa-solid fa-bars"></i><div>Lists view</div></div>
+                <div><i class="fa-solid fa-grip"></i><div>Grid view</div></div>
               </div>
             </div>
           </div>

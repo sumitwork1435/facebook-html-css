@@ -3,44 +3,36 @@ body {
   margin: 0px;
 }
 
-.profile-set {
-  width: 1000px;
+.profile {
+  width: 1260px;
   margin: 0px auto 0px auto;
 }
 
 .container {
   margin: 0px auto 0px auto;
-  width: 930px;
+  width: 1160px;
 }
 
-.background-img {
-  width: 100%;
-  max-height: 130px;
-  border-radius: 7px;
-  background-image: url("../image/background-img.png");
+button {
+  cursor: pointer;
 }
 
+.background {
+  background-image: url(../image/background-img.png);
+  height: 130px;
+  position: relative;
+  border-radius: 10px;
+}
 
-.profile-pic img {
+.profilepic img {
   width: 168px;
   height: 168px;
   border-radius: 100px;
-  margin-top: 50px;
   border-width: 5px;
   border-style: solid;
   border-color: white;
   box-shadow: none;
   cursor: pointer;
-}
-
-.profile-pic {
-  display: grid;
-
-}
-
-.edit-cover {
-  color: white;
-  margin: -150px 0px auto auto;
 }
 
 .edit-cover button {
@@ -54,35 +46,42 @@ body {
   border-style: none;
 }
 
-.profile-sec {
-  display: grid;
+.edit-cover {
+  position: absolute;
+  bottom: 10%;
+  right: 4.5%;
 }
 
-.username h1 {
-  margin: -75px 0px auto 175px;
-  padding: 0px 20px;
-  font-size: 32px;
-  font-weight: 700;
-  width: 20%;
+.profilepic {
+  position: absolute;
+  top: 40%;
+  left: 4.5%;
 }
 
-.username p {
-  margin: 0px 0px auto 175px;
-  padding: 10px 20px;
-  font-weight: bold;
-  color: #69656c;
-  cursor: pointer;
 
 
-}
-
-.username p :hover {
-  color: red;
+.username {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
 }
 
 .btn-set {
-  display: flex;
-  justify-content: space-between;
+  margin: 20px 0px 16px 18%;
+}
+
+.btn-set h1 {
+  margin: 8px 0px;
+  height: 37px;
+}
+
+.btn-set li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #65686c;
+  cursor: pointer;
 }
 
 .profile-btn button {
@@ -94,7 +93,6 @@ body {
   font-weight: 700;
   background-color: #e2e5e9;
   cursor: pointer;
-  margin-top: -25px;
   height: 36px;
 }
 
@@ -107,50 +105,46 @@ body {
   margin-right: 5px;
 }
 
+.profile-btn {
+  margin: 23px 0px 0px;
+}
+
 .divider-line {
-  width: 930px;
+  width: 100%;
   height: 0.5px;
   background-color: #e2e5e9;
-  margin: 20px auto 0px auto;
 }
 
-.profile-opt {
+.listsec {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
 }
 
-.flex-opt a {
-  text-decoration: none;
-  padding: 20px 16px;
-  vertical-align: middle;
-  color: #69656c;
-  font-size: 16px;
-  font-weight: 600;
-
-
+.listitem {
+  display: flex;
+  align-items: center;
 }
 
-.option {
-  margin-top: 122px;
+.listitem li {
+  list-style: none;
+  padding: 0px 16px;
+  font-size: 15px;
+  color: #65686c;
+  font-weight: 700;
 }
-
-.t-dot {
-  margin: 0px 0px 0px auto;
+.listitem li:hover{
+  color:#0064d1;
+  background-color: #e2e5e9;
 }
 
 .t-dot button {
-  font-size: 15px;
-  padding: 10px 12px;
-  border-radius: 8px;
+  padding: 0px 16px;
+  height: 36px;
   border-style: none;
-  color: #69656c;
-  margin-top: -8px;
-}
-
-.divider-linet {
-  width: 930px;
-  height: 0.5px;
   background-color: #e2e5e9;
-  margin: 17px auto 0px auto;
+  border-radius: 12px;
 }
 
 .qew {
@@ -159,10 +153,9 @@ body {
 
 .content-view {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 12px;
   margin: 16px 0px 0px;
   width: 100%;
-
 }
 
 .intro-sec span {
@@ -174,7 +167,6 @@ body {
 
 .intro-sec {
   padding: 20px 16px 20px;
-
 }
 
 .add-bio p {
@@ -185,7 +177,6 @@ body {
   padding: 11px;
   vertical-align: middle;
   margin: 0px;
-
 }
 
 .add-bio {
@@ -213,7 +204,6 @@ body {
   font-size: 20px;
   padding-right: 12px;
   color: #69656c;
-
 }
 
 .box-dtl p {
@@ -223,15 +213,13 @@ body {
   padding: 11px;
   vertical-align: middle;
   margin: 0px;
-
 }
 
 .box-dtl {
   background-color: #e2e5e9;
-  border-radius: 8px;
+  border-radius: 12px;
   margin: 8px 0px 9px 0px;
   cursor: pointer;
-
 }
 
 .feature {
@@ -271,11 +259,10 @@ body {
 }
 
 .threepic img {
-  width: 110px;
+  width: 100%;
   height: 110px;
   object-fit: cover;
   vertical-align: bottom;
-
 }
 
 .ninepic {
@@ -283,11 +270,11 @@ body {
   grid-template-columns: repeat(3, 1fr);
   border-radius: 20px;
   overflow: hidden;
-  
+  gap: 4px;
+
 }
 
 .threepic {
-  width: 110px;
   cursor: pointer;
 }
 
@@ -384,13 +371,11 @@ body {
 .row-ma {
   margin: 16px 0px 0px 16px;
   width: 59%;
-
 }
 
 .row {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  width: 510px;
+  border-radius: 12px;
   padding: 12px 16px 10px;
 }
 
@@ -402,14 +387,12 @@ body {
   border-radius: 20px;
   color: #69656c;
   cursor: pointer;
-
 }
 
 .divider-lines {
   height: 0.5px;
   background-color: #e2e5e9;
   margin-top: 12px;
-
 }
 
 .live-btn {
@@ -424,7 +407,7 @@ body {
   background-color: white;
   cursor: pointer;
   display: flex;
-
+  align-items: center;
 }
 
 .live-btn button i {
@@ -432,15 +415,10 @@ body {
   margin-right: 6px;
 }
 
-.live-btn button p {
+.live-btn button div {
   color: #65686c;
   font-size: 15px;
-  height: 24px;
   font-weight: 700;
-  margin: 4.5px 0px;
-  
-  
-
 }
 
 .live-btn .redbtn {
@@ -457,9 +435,13 @@ body {
 
 .clm {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  width: 510px;
-  padding: 12px 16px 10px;
+  border-radius: 12px;
+  padding: 0px 16px;
+}
+
+.clm-set {
+  padding: 8px 0px;
+  height: 36px;
 }
 
 .row-na {
@@ -469,19 +451,16 @@ body {
 .posts-sec {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.posts span {
-  font-size: 20px;
-  font-weight: bolder;
-}
 
 .postsflex button {
   font-size: 15px;
   background-color: #e2e5e9;
   border-radius: 8px;
   border-style: none;
-  height: 40px;
+  height: 36px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -493,9 +472,10 @@ body {
 }
 
 .posts {
-  height: 40px;
-  padding-top: 10px;
   cursor: pointer;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 0px 6px;
 }
 
 .postsflex .onet {
@@ -510,21 +490,31 @@ body {
 .flexview {
   display: flex;
   justify-content: space-around;
+  height: 40px;
 }
 
-.flexview p {
+.flexview div {
   font-size: 15px;
   margin: 0px;
-  padding: 12px 12px 0px;
   color: #65686c;
   font-weight: 600;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
-.flexview p i {
+.flexview div div {
+  height: 15px;
+}
+
+.flexview div:hover {
+  color: blue;
+  background-color: #e2e5e9;
+}
+
+.flexview div i {
   font-size: 16px;
   margin-right: 5px;
-
 }
 
 .postsimg img {
@@ -532,7 +522,6 @@ body {
   height: 40px;
   border-radius: 100px;
   cursor: pointer;
-
 }
 
 .postsimg {
@@ -541,13 +530,12 @@ body {
 
 .myposts {
   margin-top: 16px;
-
 }
 
 .posts-set {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  width: 542px;
+  border-radius: 12px;
+  width: 100%;
 }
 
 .postsclm {
@@ -561,7 +549,6 @@ body {
 
 .imgflexing {
   display: flex;
-
 }
 
 .postoverview p {
@@ -569,7 +556,6 @@ body {
   font-size: 15px;
   padding: 2.5px 0px;
   color: #65686c;
-
 }
 
 .postoverview p strong {
@@ -586,7 +572,7 @@ body {
 }
 
 .divimg img {
-  width: 542px;
+  width: 100%;
 }
 
 .like {
@@ -602,10 +588,8 @@ body {
 
 .like p i {
   color: white;
-
   font-size: 10px;
   padding: 1px 2px 2px 2px;
-
 }
 
 .like p span {
@@ -632,7 +616,6 @@ body {
   margin: 10px 0px;
   font-size: 15px;
   color: #65686c;
-
 }
 
 .likebtn p i {
@@ -644,7 +627,6 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 100px;
-
 }
 
 .cmntpic {
@@ -673,7 +655,6 @@ body {
 .writec p {
   margin: 7.3px;
   color: #65686c;
-
 }
 
 .cmnt {
