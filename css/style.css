@@ -4,18 +4,18 @@ body {
 }
 
 .profile {
-  width: 1260px;
+  max-width: 1260px;
   margin: 0px auto 0px auto;
 }
 
 .container {
   margin: 0px auto 0px auto;
-  width: 1160px;
+  max-width: 1160px;
 }
 
 header {
   background-color: white;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 main {
@@ -42,6 +42,7 @@ button {
   border-color: white;
   box-shadow: none;
   cursor: pointer;
+  margin-top: 50px;
 }
 
 .edit-cover button {
@@ -53,18 +54,17 @@ button {
   border-style: none;
   height: 36px;
   border-style: none;
+  
 }
 
 .edit-cover {
-  position: absolute;
-  bottom: 10%;
-  right: 50px;
+  margin-top: 75px;
 }
 
 .profilepic {
-  position: absolute;
-  top: 40%;
-  left: 50px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 
@@ -77,7 +77,7 @@ button {
 }
 
 .btn-set {
-  margin: 20px 0px 16px 18%;
+  margin: 10px 0px 16px 192px;
 }
 
 .btn-set h1 {
@@ -115,7 +115,7 @@ button {
 }
 
 .profile-btn {
-  margin: 23px 0px 0px;
+  margin: 16px 0px 0px;
 }
 
 .divider-line {
@@ -159,14 +159,16 @@ button {
 
 .qew {
   display: flex;
+  gap: 16px;
+  padding-top: 16px;
 }
 
 .content-view {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  margin: 16px 0px 0px;
   width: 100%;
   background-color: white;
+  margin-bottom: 16px;
 }
 
 .intro-sec span {
@@ -238,7 +240,7 @@ button {
 }
 
 .grid-clm {
-  width: 41%;
+  flex: 0 0 480px;
 }
 
 .edit-details p strong {
@@ -334,9 +336,11 @@ button {
   padding: 16px 0px 0px 6px;
   gap: 12px;
 }
-.friendsname{
+
+.friendsname {
   min-height: 2.3em;
 }
+
 .friendsname p {
   margin: 3px 0px 0px;
   font-size: 13px;
@@ -364,9 +368,11 @@ button {
   font-size: 13px;
   color: #69656c;
 }
-.facebooklinks p{
+
+.facebooklinks p {
   margin: 8px;
 }
+
 .friendsname {
   cursor: pointer;
 }
@@ -384,12 +390,11 @@ button {
 }
 
 .row-ma {
-  margin: 16px 0px 0px 16px;
-  width: 59%;
+  flex: 1;
 }
 
 .row {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   padding: 12px 16px 10px;
   background-color: white;
@@ -450,7 +455,7 @@ button {
 }
 
 .clm {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   padding: 0px 16px;
   background-color: white;
@@ -550,7 +555,7 @@ button {
 }
 
 .posts-set {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   width: 100%;
   background-color: white;
