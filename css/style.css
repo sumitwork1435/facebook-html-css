@@ -364,7 +364,9 @@ button {
   font-size: 13px;
   color: #69656c;
 }
-
+.facebooklinks p{
+  margin: 8px;
+}
 .friendsname {
   cursor: pointer;
 }
