@@ -164,7 +164,7 @@ button {
 }
 
 .content-view {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   width: 100%;
   background-color: white;
@@ -179,7 +179,7 @@ button {
 }
 
 .intro-sec {
-  padding: 20px 16px 26px;
+  padding: 20px 16px;
 }
 
 .add-bio p {
@@ -370,7 +370,7 @@ button {
 }
 
 .facebooklinks p {
-  margin: 8px;
+  margin: -4px 0px;
 }
 
 .friendsname {
@@ -394,7 +394,7 @@ button {
 }
 
 .row {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   padding: 12px 16px 10px;
   background-color: white;
@@ -455,7 +455,7 @@ button {
 }
 
 .clm {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   padding: 0px 16px;
   background-color: white;
@@ -555,7 +555,7 @@ button {
 }
 
 .posts-set {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   width: 100%;
   background-color: white;
@@ -568,6 +568,7 @@ button {
 .clmpost {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .imgflexing {
