@@ -10,7 +10,7 @@ body {
 
 .container {
   margin: 0px auto 0px auto;
-  width: 1160px;
+  max-width: 1160px;
 }
 
 header {
@@ -161,6 +161,7 @@ button {
   display: flex;
   gap: 16px;
   padding-top: 16px;
+  flex-wrap: wrap;
 }
 
 .content-view {
